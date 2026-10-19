@@ -118,3 +118,20 @@ Daftar persyaratan dan langkah pengumpulan ada di `docs/PENGUMPULAN.md`. Laporan
 - [Flutter: FutureBuilder](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
 - [Dart: Asynchronous programming](https://dart.dev/libraries/async/async-await)
 - [http](https://pub.dev/packages/http), [shared_preferences](https://pub.dev/packages/shared_preferences), [url_launcher](https://pub.dev/packages/url_launcher)
+
+## Unduhan dan tautan pengumpulan
+
+- Repositori public: https://github.com/ikwfahmi/seduh-surabaya-uts-mobile
+- APK dan PDF: https://github.com/ikwfahmi/seduh-surabaya-uts-mobile/releases/tag/v1.0.0
+- Draf PDF Google Drive: https://drive.google.com/file/d/1OFxDeqYZ5yecXX7GNyYAwAI_E8CtY4f-/view?usp=drivesdk
+
+Akses Google Drive saat diunggah masih terbatas pada pemilik. Sebelum pengumpulan, lengkapi cover, ganti isi PDF, lalu atur **Anyone with the link → Viewer** dan uji tanpa login. Repositori GitHub sudah public.
+
+Untuk membangun ulang PDF setelah mengisi `docs/identitas.json` atau mengedit `docs/LAPORAN.md`:
+
+```bash
+python3 -m pip install reportlab pillow
+python3 tool/build_report.py
+```
+
+Generator menggunakan font Liberation dari `/usr/share/fonts/liberation`; sesuaikan `FONT_DIR` pada skrip jika lokasi font berbeda. Hasil PDF ditulis ke `docs/Laporan_UTS_Seduh_Surabaya.pdf`.

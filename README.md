@@ -56,15 +56,11 @@ flutter analyze
 flutter test --reporter expanded
 # Pengecekan API sesungguhnya, terpisah dari tes deterministik:
 dart run tool/check_live_api.dart
-# APK universal (lebih besar):
-flutter build apk --release
-# APK untuk mayoritas ponsel Android modern (ARM64):
-flutter build apk --release --target-platform android-arm64
 # Versi web:
 flutter build web --release
 ```
 
-Hasil APK berada di `build/app/outputs/flutter-apk/app-release.apk`. APK yang disediakan adalah build tugas dengan debug signing, untuk instalasi/pengujian langsung; distribusi Play Store memerlukan konfigurasi signing sendiri. Build Android telah diverifikasi, tetapi uji runtime Android pada perangkat fisik belum dilakukan di lingkungan pengerjaan ini. Screenshot laporan berasal dari aplikasi Flutter web pada viewport ponsel, bukan emulator Android.
+Proyek disediakan sebagai source code. File APK dan release GitHub telah dihapus sesuai permintaan; APK tidak disertakan. Screenshot laporan berasal dari aplikasi Flutter web pada viewport ponsel, bukan emulator Android. Pengujian runtime pada perangkat Android fisik belum dilakukan.
 
 Build web dapat disajikan dengan server HTTP, bukan membuka `index.html` lewat `file://`:
 
@@ -122,7 +118,8 @@ Daftar persyaratan dan langkah pengumpulan ada di `docs/PENGUMPULAN.md`. Laporan
 ## Unduhan dan tautan pengumpulan
 
 - Repositori public: https://github.com/ikwfahmi/seduh-surabaya-uts-mobile
-- APK dan PDF: https://github.com/ikwfahmi/seduh-surabaya-uts-mobile/releases/tag/v1.0.0
+- Laporan PDF: `docs/Laporan_UTS_Seduh_Surabaya.pdf` pada repositori.
+- Distribusi source code tanpa release APK.
 - Draf PDF Google Drive: https://drive.google.com/file/d/1OFxDeqYZ5yecXX7GNyYAwAI_E8CtY4f-/view?usp=drivesdk
 
 Akses Google Drive saat diunggah masih terbatas pada pemilik. Sebelum pengumpulan, lengkapi cover, ganti isi PDF, lalu atur **Anyone with the link → Viewer** dan uji tanpa login. Repositori GitHub sudah public.

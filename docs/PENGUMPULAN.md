@@ -8,13 +8,13 @@
 - `docs/identitas.json`: identitas cover; `logo_path` menerima path gambar logo fakultas.
 - `docs/screenshots/`: screenshot asli aplikasi Flutter web pada ukuran ponsel/desktop.
 - `docs/pengujian-otomatis.txt`, `docs/analisis-statis.txt`, dan `docs/live-api-check.json`: bukti verifikasi.
-- APK ARM64 disediakan terpisah untuk pemasangan pada mayoritas Android modern.
+- Source code disediakan tanpa file APK atau release GitHub.
 
 ## Sebelum dikumpulkan
 
 1. Isi nama, NIM, kelas, jurusan, fakultas, kampus dan logo. Jangan mengumpulkan cover yang masih berisi penanda `[ ... ]`.
 2. Baca laporan dan pahami implementasi, khususnya JSON model, async/await, dan FutureBuilder.
-3. Jalankan APK pada ponsel/emulator Android sendiri; uji internet aktif/nonaktif, pencarian, detail, favorit setelah restart, dan Google Maps.
+3. Uji aplikasi dari source code pada ponsel/emulator Android sendiri; uji internet aktif/nonaktif, pencarian, detail, favorit setelah restart, dan Google Maps.
 4. Tambahkan hasil pengujian perangkat tersebut pada laporan jika diperlukan. Pengujian runtime Android fisik belum dilakukan dalam pengerjaan ini.
 5. Unggah source code lengkap ke repositori GitHub public. Pastikan `pubspec.lock`, folder `android`, folder `web`, font, dan test ikut terunggah; cache build dan file rahasia tidak ikut.
 6. Unggah PDF yang identitasnya sudah lengkap ke Google Drive. Pilih **General access → Anyone with the link → Viewer**.

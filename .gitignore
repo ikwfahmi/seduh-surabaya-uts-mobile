@@ -1,0 +1,25 @@
+# Generated and local machine files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.iml
+.idea/
+.vscode/
+.DS_Store
+android/local.properties
+android/.gradle/
+android/captures/
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+android/key.properties
+*.jks
+*.keystore
+.env
+.env.*
+*.log
+# PDF source/rendering cache
+docs/__pycache__/

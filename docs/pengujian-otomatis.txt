@@ -1,0 +1,35 @@
+00:00 +0: loading /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/cafe_api_test.dart
+00:00 +0: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/cafe_api_test.dart: parses real API envelope, Unicode and numeric values
+00:00 +1: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/cafe_api_test.dart: follows pagination when API has multiple pages
+00:00 +2: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/cafe_api_test.dart: handles a valid empty dataset
+00:00 +3: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: optional missing fields have honest fallbacks
+00:00 +4: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: optional missing fields have honest fallbacks
+00:00 +5: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: optional missing fields have honest fallbacks
+00:00 +6: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: optional missing fields have honest fallbacks
+00:00 +7: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: optional missing fields have honest fallbacks
+00:00 +8: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +9: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +10: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +11: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +12: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +13: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +14: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +15: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +16: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +17: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +18: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +19: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +20: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (setUpAll)
+00:00 +20: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: sort uses complete list and never mutates the source
+00:00 +21: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/models_and_favorites_test.dart: sort uses complete list and never mutates the source
+00:00 +22: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: shows loading then data and does not refetch when searching
+00:00 +23: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: shows loading then data and does not refetch when searching
+00:00 +24: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: shows loading then data and does not refetch when searching
+00:00 +25: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: shows loading then data and does not refetch when searching
+00:00 +26: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: shows loading then data and does not refetch when searching
+00:01 +27: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: failed request can be retried successfully
+00:01 +28: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: empty API response offers reload
+00:01 +29: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: area filter, favorites and detail work at mobile width
+00:02 +30: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: no search results can be reset
+00:02 +31: /home/ikwfahmi/Documents/Codex/2026-10-19/a/outputs/seduh_surabaya/test/app_test.dart: (tearDownAll)
+00:02 +31: All tests passed!
